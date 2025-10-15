@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Celulares</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #111827;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .producto {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .producto:hover {
+      transform: scale(1.03);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .producto h2 {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .precio {
+      color: #2563eb;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Celulares</h1>
+  </header>
+
+  <section class="catalogo">
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Itel A90"><h2>Itel A90 (3+3 RAM / 128GB) + cover + mica</h2><p class="precio">$110</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Tecno Spark Go 1s"><h2>Tecno Spark Go 1s (3+3 RAM / 64GB) + cover + mica + audífonos</h2><p class="precio">$100</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Tecno Spark Go 2"><h2>Tecno Spark Go 2 (3+3 RAM / 64GB) + cover + mica</h2><p class="precio">$115</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Infinix Smart 9"><h2>Infinix Smart 9 (3+3 RAM / 64GB) + cover + mica</h2><p class="precio">$100</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Tecno Spark 30 C"><h2>Tecno Spark 30 C (4+4 RAM / 256GB) + cover + mica</h2><p class="precio">$135</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Tecno Spark 40 C"><h2>Tecno Spark 40 C (8+8 RAM / 256GB) + cover transparente + mica</h2><p class="precio">$155</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Tecno Spark 30"><h2>Tecno Spark 30 (8+8 RAM / 256GB) + cover transparente + mica</h2><p class="precio">$160</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy F05"><h2>Samsung Galaxy F05 (4 RAM / 64GB) + cover + mica</h2><p class="precio">$115</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A06"><h2>Samsung Galaxy A06 (4 RAM / 64GB) + cover + mica + cargador</h2><p class="precio">$125</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A07 64GB"><h2>Samsung Galaxy A07 (4 RAM / 64GB) + cover + mica + cargador</h2><p class="precio">$145</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A07 128GB"><h2>Samsung Galaxy A07 (4 RAM / 128GB) + cover + mica + cargador</h2><p class="precio">$150</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A05S"><h2>Samsung Galaxy A05S (4 RAM / 128GB) + cover + mica + cargador</h2><p class="precio">$150</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A16"><h2>Samsung Galaxy A16 (4 RAM / 128GB) + cover + mica + cargador</h2><p class="precio">$165</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy F15 5G"><h2>Samsung Galaxy F15 5G (4 RAM / 128GB) + mica + cargador</h2><p class="precio">$165</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy F16 5G"><h2>Samsung Galaxy F16 5G (4 RAM / 128GB) + cover + mica + cargador</h2><p class="precio">$180</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A17 4G"><h2>Samsung Galaxy A17 4G (4 RAM / 128GB) + cover + mica + cargador</h2><p class="precio">$190</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A17 6GB"><h2>Samsung Galaxy A17 (6 RAM / 128GB) + cover + mica + cargador</h2><p class="precio">$210</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A26 5G"><h2>Samsung Galaxy A26 5G (6 RAM / 128GB) + cover + mica + cargador</h2><p class="precio">$240</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Samsung Galaxy A56 5G"><h2>Samsung Galaxy A56 5G (8 RAM / 256GB) + cover + mica + cargador</h2><p class="precio">$380</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Xiaomi Redmi A5 64GB"><h2>Xiaomi Redmi A5 (3 RAM / 64GB) + cover</h2><p class="precio">$105</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Xiaomi Redmi A5 128GB"><h2>Xiaomi Redmi A5 (4 RAM / 128GB) + cover</h2><p class="precio">$120</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Xiaomi Redmi C71"><h2>Xiaomi Redmi C71 (3 RAM / 64GB) + cover + mica</h2><p class="precio">$105</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Xiaomi Redmi 13"><h2>Xiaomi Redmi 13 (6 RAM / 128GB) + cover + mica</h2><p class="precio">$135</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Xiaomi Redmi 15 C"><h2>Xiaomi Redmi 15 C (8+8 RAM / 256GB) + cover transparente + mica</h2><p class="precio">$175</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="ZTE e"><h2>ZTE e (2+4 RAM / 64GB) + cover transparente + mica</h2><p class="precio">$100</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="TCL"><h2>TCL (3+3 RAM / 63GB) + cover + mica</h2><p class="precio">$100</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Huawei Honor 200 Lite"><h2>Huawei Honor 200 Lite (8+8 RAM / 256GB) + cover + mica</h2><p class="precio">$230</p></div>
+
+    <div class="producto"><img src="https://via.placeholder.com/300x250" alt="Huawei Honor 8xb"><h2>Huawei Honor 8xb (8+8 RAM / 512GB) + cover transparente + mica</h2><p class="precio">$240</p></div>
+
+  </section>
+</body>
+</html>
